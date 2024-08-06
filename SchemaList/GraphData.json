@@ -1,0 +1,101 @@
+{
+  "entityName": "Graph Data",
+  "description": "Graph Data",
+  "schemaReadAccess": "PUBLIC",
+  "dataReadAccess": "PUBLIC",
+  "dataWriteAccess": "PUBLIC",
+  "metadataReadAccess": "PUBLIC",
+  "metadataWriteAccess": "PUBLIC",
+  "universes": [
+    "6690d5e6a2ee7d2b51716cb6"
+  ],
+  "tags": {
+    "BLUE": [
+      "XPX"
+    ]
+  },
+  "attributes": [
+    {
+      "name": "graphID",
+      "nestedName": "graphID",
+      "type": {
+        "type": "string"
+      },
+      "required": true,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "graphName",
+      "nestedName": "graphName",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "graphYAxis",
+      "nestedName": "graphYAxis",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "graphXAxis",
+      "nestedName": "graphXAxis",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "graphType",
+      "nestedName": "graphType",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "businessStage",
+      "nestedName": "businessStage",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "graphData",
+      "nestedName": "graphData",
+      "type": {
+        "type": "json"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    }
+  ],
+  "primaryKey": [
+    "graphID"
+  ],
+  "execute": "PUBLIC",
+  "visibility": "PUBLIC"
+}

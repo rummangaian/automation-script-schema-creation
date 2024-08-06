@@ -1,0 +1,90 @@
+{
+  "entityName": "Query Schema",
+  "description": "Query Schema - containing all details of query along with query definition ",
+  "schemaReadAccess": "PUBLIC",
+  "dataReadAccess": "PUBLIC",
+  "dataWriteAccess": "PUBLIC",
+  "metadataReadAccess": "PUBLIC",
+  "metadataWriteAccess": "PUBLIC",
+  "universes": [
+    "6690d5e6a2ee7d2b51716cb6"
+  ],
+  "tags": {
+    "BLUE": [
+      "XPX"
+    ]
+  },
+  "attributes": [
+    {
+      "name": "queryId",
+      "nestedName": "queryId",
+      "type": {
+        "type": "string"
+      },
+      "required": true,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "queryName",
+      "nestedName": "queryName",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "queryDesc",
+      "nestedName": "queryDesc",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "query_type",
+      "nestedName": "query_type",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "query_resultant",
+      "nestedName": "query_resultant",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "query_template",
+      "nestedName": "query_template",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    }
+  ],
+  "primaryKey": [
+    "queryId"
+  ],
+  "execute": "PUBLIC",
+  "visibility": "PUBLIC"
+}

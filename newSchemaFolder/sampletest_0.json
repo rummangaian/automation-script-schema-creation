@@ -1,0 +1,113 @@
+{
+  "entityName": "sample test",
+  "description": "sample test",
+  "schemaReadAccess": "PUBLIC",
+  "dataReadAccess": "PUBLIC",
+  "dataWriteAccess": "PUBLIC",
+  "metadataReadAccess": "PUBLIC",
+  "metadataWriteAccess": "PUBLIC",
+  "universes": [
+    "6690d5e6a2ee7d2b51716cb6"
+  ],
+  "tags": {
+    "BLUE": [
+      "XPX"
+    ]
+  },
+  "attributes": [
+    {
+      "name": "templateName",
+      "nestedName": "templateName",
+      "type": {
+        "type": "string"
+      },
+      "required": true,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "templateID",
+      "nestedName": "templateID",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "templateConfig",
+      "nestedName": "templateConfig",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "businessStage",
+      "nestedName": "businessStage",
+      "type": {
+        "type": "object"
+      },
+      "required": true,
+      "reference": false,
+      "childAttributes": [
+        {
+          "name": "templateName",
+          "nestedName": "businessStage.templateName",
+          "type": {
+            "type": "string"
+          },
+          "required": true,
+          "reference": false,
+          "childAttributes": [],
+          "access": "PUBLIC"
+        },
+        {
+          "name": "templateID",
+          "nestedName": "businessStage.templateID",
+          "type": {
+            "type": "string"
+          },
+          "required": false,
+          "reference": false,
+          "childAttributes": [],
+          "access": "PUBLIC"
+        },
+        {
+          "name": "templateConfig",
+          "nestedName": "businessStage.templateConfig",
+          "type": {
+            "type": "string"
+          },
+          "required": false,
+          "reference": false,
+          "childAttributes": [],
+          "access": "PUBLIC"
+        },
+        {
+          "name": "businessStage",
+          "nestedName": "businessStage.businessStage",
+          "type": {
+            "type": "string"
+          },
+          "required": false,
+          "reference": false,
+          "childAttributes": [],
+          "access": "PUBLIC"
+        }
+      ],
+      "access": "PUBLIC"
+    }
+  ],
+  "primaryKey": [
+    "templateName"
+  ],
+  "execute": "PUBLIC",
+  "visibility": "PUBLIC"
+}

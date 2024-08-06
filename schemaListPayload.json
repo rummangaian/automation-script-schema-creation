@@ -1,0 +1,34 @@
+{
+    "list" : [{
+        "entityName":"sample test",
+        "description":"sample test",
+        "primaryKey":"templateName",
+        "attributeList":{
+            "templateName": "string",
+            "templateID": "string",
+            "templateConfig": "string",
+            "businessStage": {
+              "templateName": "string",
+              "templateID": "string",
+              "templateConfig": "string",
+              "businessStage": "string"
+          }
+        }
+      } , 
+      {
+        "entityName":"sample test2",
+        "description":"sample test2",
+        "primaryKey":"templateName",
+        "attributeList":{
+            "templateName": "string",
+            "templateID": "string",
+            "templateConfig": "string",
+            "businessStage": {
+              "templateName": "string",
+              "templateID": "string",
+              "templateConfig": "string",
+              "businessStage": "string"
+          }
+        }
+      }]
+}

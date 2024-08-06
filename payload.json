@@ -1,0 +1,245 @@
+{
+  "entityName": "Marco Workspace",
+  "description": "Marco Workspace",
+  "schemaReadAccess": "PUBLIC",
+  "dataReadAccess": "PUBLIC",
+  "dataWriteAccess": "PUBLIC",
+  "metadataReadAccess": "PUBLIC",
+  "metadataWriteAccess": "PUBLIC",
+  "universes": [
+    "6690d5e6a2ee7d2b51716cb6"
+  ],
+  "tags": {
+    "BLUE": [
+      "XPX"
+    ]
+  },
+  "attributes": [
+    {
+      "name": "workspace_name",
+      "nestedName": "workspace_name",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "workspace_id",
+      "nestedName": "workspace_id",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "workspace_desc",
+      "nestedName": "workspace_desc",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "preferred_currency",
+      "nestedName": "preferred_currency",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "plan_language",
+      "nestedName": "plan_language",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "no_of_separators",
+      "nestedName": "no_of_separators",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "business_stage",
+      "nestedName": "business_stage",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "fiscal_year_cycle",
+      "nestedName": "fiscal_year_cycle",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "first_year_of_forcast",
+      "nestedName": "first_year_of_forcast",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "length_of_forcast",
+      "nestedName": "length_of_forcast",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "monthly_details",
+      "nestedName": "monthly_details",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "multi_month_charges",
+      "nestedName": "multi_month_charges",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "Signature",
+      "nestedName": "Signature",
+      "type": {
+        "type": "object"
+      },
+      "required": true,
+      "reference": false,
+      "childAttributes": [
+        {
+          "name": "signature_type",
+          "nestedName": "Signature.signature_type",
+          "type": {
+            "type": "string"
+          },
+          "required": false,
+          "reference": false,
+          "childAttributes": [],
+          "access": "PUBLIC"
+        },
+        {
+          "name": "prospects_signature_options",
+          "nestedName": "Signature.prospects_signature_options",
+          "type": {
+            "type": "string"
+          },
+          "required": false,
+          "reference": false,
+          "childAttributes": [],
+          "access": "PUBLIC"
+        }
+      ],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "proposals",
+      "nestedName": "proposals",
+      "type": {
+        "type": "number"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "owner",
+      "nestedName": "owner",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "Users",
+      "nestedName": "Users",
+      "type": {
+        "type": "json"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "last_updated",
+      "nestedName": "last_updated",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "created_at",
+      "nestedName": "created_at",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    }
+  ],
+  "primaryKey": [
+    "workspace_id"
+  ],
+  "execute": "PUBLIC",
+  "visibility": "PUBLIC"
+}

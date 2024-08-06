@@ -1,0 +1,211 @@
+{
+  "entityName": "Marco Workspace Schema",
+  "description": "Marco Workspace Schema",
+  "schemaReadAccess": "PUBLIC",
+  "dataReadAccess": "PUBLIC",
+  "dataWriteAccess": "PUBLIC",
+  "metadataReadAccess": "PUBLIC",
+  "metadataWriteAccess": "PUBLIC",
+  "universes": [
+    "6690d5e6a2ee7d2b51716cb6"
+  ],
+  "tags": {
+    "BLUE": [
+      "XPX"
+    ]
+  },
+  "attributes": [
+    {
+      "name": "workspaceName",
+      "nestedName": "workspaceName",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "workspaceId",
+      "nestedName": "workspaceId",
+      "type": {
+        "type": "string"
+      },
+      "required": true,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "workspaceDesc",
+      "nestedName": "workspaceDesc",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "preferredCurrency",
+      "nestedName": "preferredCurrency",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "planLanguage",
+      "nestedName": "planLanguage",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "noOfSparators",
+      "nestedName": "noOfSparators",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "businessStage",
+      "nestedName": "businessStage",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "fiscalYearCycle",
+      "nestedName": "fiscalYearCycle",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "firstYearOfForecast",
+      "nestedName": "firstYearOfForecast",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "lengthOfForecast",
+      "nestedName": "lengthOfForecast",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "monthlyDetails",
+      "nestedName": "monthlyDetails",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "multiMonthsCharges",
+      "nestedName": "multiMonthsCharges",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "signature",
+      "nestedName": "signature",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "owner",
+      "nestedName": "owner",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "users",
+      "nestedName": "users",
+      "type": {
+        "type": "json"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "lastUpdated",
+      "nestedName": "lastUpdated",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "createdAt",
+      "nestedName": "createdAt",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    }
+  ],
+  "primaryKey": [
+    "workspaceId"
+  ],
+  "execute": "PUBLIC",
+  "visibility": "PUBLIC"
+}

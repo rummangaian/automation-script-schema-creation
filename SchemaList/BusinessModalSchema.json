@@ -1,0 +1,1062 @@
+{
+  "entityName": "Business Modal Schema",
+  "description": "Business Modal Schema",
+  "schemaReadAccess": "PUBLIC",
+  "dataReadAccess": "PUBLIC",
+  "dataWriteAccess": "PUBLIC",
+  "metadataReadAccess": "PUBLIC",
+  "metadataWriteAccess": "PUBLIC",
+  "universes": [
+    "6690d5e6a2ee7d2b51716cb6"
+  ],
+  "tags": {
+    "BLUE": [
+      "XPX"
+    ]
+  },
+  "attributes": [
+    {
+      "name": "businessModalName",
+      "nestedName": "businessModalName",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "businessModalDesc",
+      "nestedName": "businessModalDesc",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "businessModalID",
+      "nestedName": "businessModalID",
+      "type": {
+        "type": "string"
+      },
+      "required": true,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "aliasNames",
+      "nestedName": "aliasNames",
+      "type": {
+        "type": "json"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "parentTamID",
+      "nestedName": "parentTamID",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "parentSchemaIDMetaData",
+      "nestedName": "parentSchemaIDMetaData",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "resultantQueryString",
+      "nestedName": "resultantQueryString",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "startTime",
+      "nestedName": "startTime",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "endTime",
+      "nestedName": "endTime",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "frequency",
+      "nestedName": "frequency",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "scheduleType",
+      "nestedName": "scheduleType",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "queryID",
+      "nestedName": "queryID",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "querytype",
+      "nestedName": "querytype",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "resultantQueryType",
+      "nestedName": "resultantQueryType",
+      "type": {
+        "type": "string"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "appMatrics",
+      "nestedName": "appMatrics",
+      "type": {
+        "type": "object"
+      },
+      "required": true,
+      "reference": false,
+      "childAttributes": [
+        {
+          "name": "tamCap",
+          "nestedName": "appMatrics.tamCap",
+          "type": {
+            "type": "object"
+          },
+          "required": true,
+          "reference": false,
+          "childAttributes": [
+            {
+              "name": "rateCard",
+              "nestedName": "appMatrics.tamCap.rateCard",
+              "type": {
+                "type": "string"
+              },
+              "required": false,
+              "reference": false,
+              "childAttributes": [],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "metered",
+              "nestedName": "appMatrics.tamCap.metered",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "appMatrics.tamCap.metered.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "appMatrics.tamCap.metered.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "fixed",
+              "nestedName": "appMatrics.tamCap.fixed",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "appMatrics.tamCap.fixed.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "appMatrics.tamCap.fixed.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "unit",
+                  "nestedName": "appMatrics.tamCap.fixed.unit",
+                  "type": {
+                    "type": "string"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "subscription",
+              "nestedName": "appMatrics.tamCap.subscription",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "appMatrics.tamCap.subscription.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "appMatrics.tamCap.subscription.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "unit",
+                  "nestedName": "appMatrics.tamCap.subscription.unit",
+                  "type": {
+                    "type": "string"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "adRevenue",
+              "nestedName": "appMatrics.tamCap.adRevenue",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "appMatrics.tamCap.adRevenue.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "appMatrics.tamCap.adRevenue.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "dataAsCurrency",
+              "nestedName": "appMatrics.tamCap.dataAsCurrency",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "appMatrics.tamCap.dataAsCurrency.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "appMatrics.tamCap.dataAsCurrency.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            }
+          ],
+          "access": "PUBLIC"
+        },
+        {
+          "name": "appCap",
+          "nestedName": "appMatrics.appCap",
+          "type": {
+            "type": "object"
+          },
+          "required": true,
+          "reference": false,
+          "childAttributes": [
+            {
+              "name": "rateCard",
+              "nestedName": "appMatrics.appCap.rateCard",
+              "type": {
+                "type": "string"
+              },
+              "required": false,
+              "reference": false,
+              "childAttributes": [],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "metered",
+              "nestedName": "appMatrics.appCap.metered",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "appMatrics.appCap.metered.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "appMatrics.appCap.metered.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "fixed",
+              "nestedName": "appMatrics.appCap.fixed",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "appMatrics.appCap.fixed.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "appMatrics.appCap.fixed.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "unit",
+                  "nestedName": "appMatrics.appCap.fixed.unit",
+                  "type": {
+                    "type": "string"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "subscription",
+              "nestedName": "appMatrics.appCap.subscription",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "appMatrics.appCap.subscription.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "appMatrics.appCap.subscription.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "unit",
+                  "nestedName": "appMatrics.appCap.subscription.unit",
+                  "type": {
+                    "type": "string"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "adRevenue",
+              "nestedName": "appMatrics.appCap.adRevenue",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "appMatrics.appCap.adRevenue.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "appMatrics.appCap.adRevenue.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "dataAsCurrency",
+              "nestedName": "appMatrics.appCap.dataAsCurrency",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "appMatrics.appCap.dataAsCurrency.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "appMatrics.appCap.dataAsCurrency.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            }
+          ],
+          "access": "PUBLIC"
+        }
+      ],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "tamMatrics",
+      "nestedName": "tamMatrics",
+      "type": {
+        "type": "object"
+      },
+      "required": true,
+      "reference": false,
+      "childAttributes": [
+        {
+          "name": "demography",
+          "nestedName": "tamMatrics.demography",
+          "type": {
+            "type": "object"
+          },
+          "required": true,
+          "reference": false,
+          "childAttributes": [
+            {
+              "name": "metered",
+              "nestedName": "tamMatrics.demography.metered",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "tamMatrics.demography.metered.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "tamMatrics.demography.metered.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "fixed",
+              "nestedName": "tamMatrics.demography.fixed",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "tamMatrics.demography.fixed.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "tamMatrics.demography.fixed.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "unit",
+                  "nestedName": "tamMatrics.demography.fixed.unit",
+                  "type": {
+                    "type": "string"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "subscription",
+              "nestedName": "tamMatrics.demography.subscription",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "tamMatrics.demography.subscription.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "tamMatrics.demography.subscription.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "unit",
+                  "nestedName": "tamMatrics.demography.subscription.unit",
+                  "type": {
+                    "type": "string"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "adRevenue",
+              "nestedName": "tamMatrics.demography.adRevenue",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "tamMatrics.demography.adRevenue.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "tamMatrics.demography.adRevenue.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "dataAsCurrency",
+              "nestedName": "tamMatrics.demography.dataAsCurrency",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "tamMatrics.demography.dataAsCurrency.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "tamMatrics.demography.dataAsCurrency.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            }
+          ],
+          "access": "PUBLIC"
+        },
+        {
+          "name": "cityList",
+          "nestedName": "tamMatrics.cityList",
+          "type": {
+            "type": "json"
+          },
+          "required": false,
+          "reference": false,
+          "childAttributes": [],
+          "access": "PUBLIC"
+        },
+        {
+          "name": "adaptionRate",
+          "nestedName": "tamMatrics.adaptionRate",
+          "type": {
+            "type": "object"
+          },
+          "required": true,
+          "reference": false,
+          "childAttributes": [
+            {
+              "name": "metered",
+              "nestedName": "tamMatrics.adaptionRate.metered",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "tamMatrics.adaptionRate.metered.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "tamMatrics.adaptionRate.metered.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "fixed",
+              "nestedName": "tamMatrics.adaptionRate.fixed",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "tamMatrics.adaptionRate.fixed.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "tamMatrics.adaptionRate.fixed.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "unit",
+                  "nestedName": "tamMatrics.adaptionRate.fixed.unit",
+                  "type": {
+                    "type": "string"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "subscription",
+              "nestedName": "tamMatrics.adaptionRate.subscription",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "tamMatrics.adaptionRate.subscription.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "tamMatrics.adaptionRate.subscription.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "unit",
+                  "nestedName": "tamMatrics.adaptionRate.subscription.unit",
+                  "type": {
+                    "type": "string"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "adRevenue",
+              "nestedName": "tamMatrics.adaptionRate.adRevenue",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "tamMatrics.adaptionRate.adRevenue.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "tamMatrics.adaptionRate.adRevenue.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            },
+            {
+              "name": "dataAsCurrency",
+              "nestedName": "tamMatrics.adaptionRate.dataAsCurrency",
+              "type": {
+                "type": "object"
+              },
+              "required": true,
+              "reference": false,
+              "childAttributes": [
+                {
+                  "name": "required",
+                  "nestedName": "tamMatrics.adaptionRate.dataAsCurrency.required",
+                  "type": {
+                    "type": "boolean"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                },
+                {
+                  "name": "value",
+                  "nestedName": "tamMatrics.adaptionRate.dataAsCurrency.value",
+                  "type": {
+                    "type": "number"
+                  },
+                  "required": false,
+                  "reference": false,
+                  "childAttributes": [],
+                  "access": "PUBLIC"
+                }
+              ],
+              "access": "PUBLIC"
+            }
+          ],
+          "access": "PUBLIC"
+        }
+      ],
+      "access": "PUBLIC"
+    },
+    {
+      "name": "graphs",
+      "nestedName": "graphs",
+      "type": {
+        "type": "json"
+      },
+      "required": false,
+      "reference": false,
+      "childAttributes": [],
+      "access": "PUBLIC"
+    }
+  ],
+  "primaryKey": [
+    "businessModalID"
+  ],
+  "execute": "PUBLIC",
+  "visibility": "PUBLIC"
+}
